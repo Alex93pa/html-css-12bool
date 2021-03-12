@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1024px;
+    margin: auto;
+    padding: 50px 0;
+}
+
 [class*="col-"]{
     float: left;
     padding: 50px 0;
@@ -12,21 +18,18 @@
     border: 1px solid black;
     text-align: center;
 }
-
+/* .row{
+    margin-left: -50px;
+} */
+.mini-pad{
+    padding: 5px;
+}
 .no-pad{
     padding: 0;
     border: none;
 }
 
-.int::after{
-    content: "";
-    position: absolute;
-    top: 1px;
-    bottom: 1px;
-    left: 1px;
-    right: 1px;
+div.int{
+    background-color: rgb(253, 5, 170);
     border: 1px solid white;
-    background-color:rgb(219, 46, 133);
-    margin-left: -3px;
-    margin-right: -3px;
 }
